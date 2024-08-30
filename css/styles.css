@@ -1,0 +1,129 @@
+/* Base styles */
+
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style:none ;
+}
+
+/* General styles */
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    --font-size--main: 1rem;
+    --primary-brand:#4D5AE5;
+    --pressed-state:#404BBF;
+    --dark-color-text:#2E2F42;
+    --sucess-color:#31D0AA;
+    --accent-color:#E7E9FC;
+    --light-color:#F4F4FD;
+    --hero-background-color:#2E2F42;
+    --white-background:#FFFFFF;
+    --modal-background: #FCFCFC;
+    --body-text:#434455;
+    --subtle-text:#8E8F99;
+}
+
+
+body{
+    font-family: var(--font-family);
+    font-size: var(--main-font-size);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--body-text);
+    background-color: var(--white-background);
+}
+
+.section-title{
+    font-size: 2.25em;
+    line-height: 1.1;
+    color:var(--dark-color-text);
+    text-align: center;
+}
+
+.section-list-title{
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 1.2;
+    color:var(--dark-color-text);
+}
+
+.website-logo{
+    font-family: var(--second-family);
+    font-weight: 700;
+    color:var(--primary-brand);
+    font-size: 1.13em;
+    line-height: 1.17;
+    text-transform: uppercase;
+    
+}
+
+.website-logo-dark{
+    color:var(--dark-color-text);
+}
+
+.website-logo-light{
+    color:var(--light-color);
+}
+
+
+.navigation-menu-item-link:hover,.navigation-menu-item-link:active,.navigation-menu-item-link:focus,.address-menu-item-link:hover,.address-menu-item-link:focus{
+ color:var(--pressed-state);
+}
+
+.hero-button:hover,.hero-button:active,.hero-button:focus{
+    background-color: var(--pressed-state);
+}
+/* Header styles */
+
+.navigation-menu-item-link{
+    color:var(--dark-color-text);
+    font-weight: 500;
+}
+
+.address-menu-item-link{
+    color: currentColor;
+    font-weight: 400;
+}
+
+/* Hero section styles */
+
+.hero{
+    background-color: var(--dark-color-text);
+    text-align: center;
+}
+
+.hero-title{
+    font-size:3.5em;
+    line-height: 1.07;
+    color:var(--white-background);
+}
+
+.hero-button{
+    color:var(--white-background);
+    background-color:var(--primary-brand);
+    font-size: 1em;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+
+
+/* Our team section style */
+
+.our-team{
+    background-color: var(--light-color);
+}
+
+/* Footer section style */
+
+.footer{
+    background-color: var(--dark-color-text);
+}
+
+
+.footer-text{
+    color:var(--light-color);
+}
